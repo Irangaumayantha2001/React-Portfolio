@@ -1,11 +1,16 @@
 import React from 'react'
 
+
+import Complete_apps from "../components/complete-apps/Complete_apps";
+import Small_projects from "../components/small_projects/Small_projects";
+
+
 const Project_page = () => {
   return (
-    <div>
-            <h1>Hi</h1>
-
-    </div>
+    <>
+    <Complete_apps />
+    <Small_projects />
+  </>
   )
 }
 

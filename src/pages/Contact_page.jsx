@@ -1,12 +1,13 @@
 /** @format */
 
 import React from "react";
+import Contact from "../components/contact_contact_page/Contact";
+
 
 const Contact_page = () => {
   return (
-    <div>
-      <h1>Hi</h1>
-    </div>
+    <Contact />
+
   );
 };
 
