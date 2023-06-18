@@ -3,41 +3,64 @@ import React from 'react'
 const Skills = () => {
     const skills = [
         {
-            title: "Languages",
-            languages: ["TypeScript", "Lua", "Python", "JavaScript"],
+          title: "Languages",
+          languages: ["Java", "JavaScript", "TypeScript"],
         },
-        { title: "Databases", languages: ["SQLite", "PostgreSQL", "Mongo"] },
+        { title: "Databases", languages: ["MySQL",  "MongoDB"] },
         {
-            title: "Tools",
-            languages: [
-                "VSCode",
-                "Neovim",
-                "Linux",
-                "Figma",
-                "XFCE",
-                "Arch",
-                "Git",
-                "Font Awesome",
-            ],
+          title: "Tools",
+          languages: [
+            "VSCode",
+            "Intlij",
+            "Linux",
+            "Figma",
+            "Git",
+            
+          ],
         },
         {
-            title: "Other",
-            languages: ["HTML", "CSS", "EJS", "SCSS", "REST", "Jinja"],
+          title: "Other",
+          languages: ["HTML", "CSS", "EJS", "SCSS"],
         },
         {
-            title: "Frameworks",
-            languages: [
-                "React",
-                "Vue",
-                "Disnake",
-                "Discord.js",
-                "Flask",
-                "Express.js",
-            ],
+          title: "Frameworks",
+          languages: [
+            "React",
+            "Material UI",
+            "Tailwindcss",
+            "Spring Boot",
+            "Express.js",
+          ],
         },
-    ];
+      ];
     return (
-      <div></div>
+        <div className="px-5 max-w-[1560px] mx-auto pt-20 py-10">
+        {/* title */}
+        <div className=" mb-12 text-[32px] font-medium text-white">
+            <span className='text-[#7FFF00]'>#</span>
+            skills
+        </div>
+        {/* cards */}
+        <div className=" flex justify-around gap-4 flex-wrap">
+            {/* card */}
+            {skills.map(({ title, languages }) => {
+                return (
+                    <>
+                        <div className="w-[90%] sm:w-[45%] md:w-[24%] lg:w-[18%] border border-[#ABB2BF]">
+                            <div className=" text-white p-2">
+                                <h2 className=" font-semibold">{title}</h2>
+                            </div>
+                            <div className=" flex gap-2 border-t border-[#ABB2BF] flex-wrap p-2 text-[#ABB2BF]">
+                                {languages.map((e) => {
+                                    return <span>{e}</span>;
+                                })}
+                            </div>
+                        </div>
+                    </>
+                );
+            })}
+        </div>
+    </div>
     )
 }
 

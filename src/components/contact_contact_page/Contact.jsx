@@ -73,4 +73,3 @@ const Contact = () => {
 export default Contact
 
 
-// We completed our project :)
