@@ -2,7 +2,10 @@ import React from 'react'
 
 const Project_page = () => {
   return (
-    <div>Project_page</div>
+    <div>
+            <h1>Hi</h1>
+
+    </div>
   )
 }
 

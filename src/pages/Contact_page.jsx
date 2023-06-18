@@ -1,9 +1,13 @@
-import React from 'react'
+/** @format */
+
+import React from "react";
 
 const Contact_page = () => {
   return (
-    <div>Contact_page</div>
-  )
-}
+    <div>
+      <h1>Hi</h1>
+    </div>
+  );
+};
 
-export default Contact_page
+export default Contact_page;
