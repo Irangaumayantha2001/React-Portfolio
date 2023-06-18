@@ -52,16 +52,16 @@ const Contact = () => {
             <div className=" text-[32px] font-medium text-white"><span className='text-[#7FFF00]'>#</span>all-media</div>
             {/* media */}
             <div className=" flex gap-6">
-                <a href="#">
+                <a href="https://github.com/Irangaumayantha2001">
                     <div className=" text-[#ABB2BF] flex items-center gap-1">
-                        <img src={require('./imgs/Twitter.png')} alt="" />
-                        <span>@elias</span>
+                        <img src={require('../../assets/github.png')} alt="" />
+                        <span>Irangaumayantha2001</span>
                     </div>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/iranga-umayantha-20973b184/">
                     <div className=" text-[#ABB2BF] flex items-center gap-1">
-                        <img src={require('./imgs/Twitter.png')} alt="" />
-                        <span>@elias</span>
+                        <img src={require('../../assets/linkedin.png')} alt="" />
+                        <span>iranga-umayantha-20973b184</span>
                     </div>
                 </a>
             </div>
