@@ -20,7 +20,7 @@ const Projects = () => {
     },
     {
       img: third,
-      langs: ["html", "css", "javascript", "Spring Boot"],
+      langs: ["html", "css", "javascript", "java","Spring Boot"],
       title: "Easy Car Rental",
       disc: "Get Rent your Car ",
     },
