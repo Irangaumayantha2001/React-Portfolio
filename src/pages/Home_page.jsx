@@ -6,6 +6,7 @@ import AboutSec from "../components/about_section/About";
 import Projects from "../components/projects_section/Projects";
 import Skills from "../components/skills_section/Skills";
 import Contact from "../components/contact_section/Contact";
+//import Footer from "../components/Footer/Footer";
 
 const Home_page = () => {
   return (
@@ -15,6 +16,7 @@ const Home_page = () => {
       <Skills />
       <Projects />
       <Contact />
+      {/*<Footer/> */}
     </>
   );
 };

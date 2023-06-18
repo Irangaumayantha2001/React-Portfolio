@@ -35,9 +35,9 @@ const Projects = () => {
         {/* left */}
         <div data-aos="fade-down" className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
           <div className="">
-            <span className="text-[#C778DD]">#</span>projects
+            <span className="text-[#7FFF00]">#</span>projects
           </div>
-          <div className="line w-2/3 h-px bg-[#C778DD]"></div>
+          <div className="line w-2/3 h-px bg-[#7FFF00]"></div>
         </div>
         {/* right */}
         <div className=" text-white font-medium">

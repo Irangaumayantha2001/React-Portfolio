@@ -8,9 +8,9 @@ const Contact = () => {
           <div className=" mb-10">
             <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
               <div className="">
-                <span className="text-[#C778DD]">#</span>contacts
+                <span className="text-[#7FFF00]">#</span>contacts
               </div>
-              <div className="line w-1/3 h-px bg-[#C778DD]"></div>
+              <div className="line w-1/3 h-px bg-[#7FFF00]"></div>
             </div>
           </div>
         </div>
