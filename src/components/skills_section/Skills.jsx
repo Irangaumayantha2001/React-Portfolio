@@ -18,16 +18,17 @@ const Skills = () => {
     },
     {
       title: "Other",
-      languages: ["HTML", "CSS", "EJS", "SCSS"],
+      languages: ["HTML", "CSS", "EJS", "SCSS","React","Node.js"],
     },
     {
       title: "Frameworks",
       languages: [
-        "React",
+        "React Native",
         "Material UI",
         "Tailwindcss",
         "Spring Boot",
         "Express.js",
+        "Next.js",
       ],
     },
   ];
